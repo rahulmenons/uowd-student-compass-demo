@@ -3,6 +3,6 @@ streamlit>=1.37,<2
 scikit-learn>=1.4,<2
 numpy>=1.26,<3
 # The CPU-only wheel avoids installing unnecessary CUDA dependencies on a demo server.
-torch==2.7.1+cpu
+torch>=2.9,<3
 sentence-transformers>=3.4,<5
 transformers>=4.46,<5
